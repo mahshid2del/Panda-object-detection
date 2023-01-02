@@ -16,6 +16,8 @@ The repository includes:
 * Evaluation on MS COCO metrics (AP)
 * Example of training on your own dataset
 
+![téléchargement (5)](https://user-images.githubusercontent.com/119355403/210189785-4efe3251-22d5-4fc9-a071-8a9b9a926713.png)
+![téléchargement (6)](https://user-images.githubusercontent.com/119355403/210189787-0695367e-1473-4ab9-832f-04b8b8600809.png)
 
 1 Collect the images e prepare the dataset with the images
 In this case, I decided to identify pandas as a model.
