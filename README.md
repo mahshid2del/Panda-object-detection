@@ -17,9 +17,6 @@ The repository includes:
 * Example of training on your own dataset
 
 
-![téléchargement (3)](https://user-images.githubusercontent.com/119355403/210189275-7f77b623-035b-4d01-a7bc-13b57ff3aa39.png)
-![téléchargement (4)](https://user-images.githubusercontent.com/119355403/210189280-3a022e9a-95ad-4180-9781-800f11af3b1d.png)
-
 1 Collect the images e prepare the dataset with the images
 In this case, I decided to identify pandas as a model.
 The first step is to shoot many in different positions, with different lighting, in the middle of other objects, and with different backgrounds. In practice, the more images you can recover and the more different they will be, the more effective your model will be. To create even more variety I recommend using Image Augmentation (Improve your Dataset) | with Imgaug.
@@ -50,3 +47,7 @@ After a few seconds, we can already check if there is a first template ready mas
 Also in the fourth step, there are 2 blocks, the first is used to load the last model created. The latter is supposed to be the most accurate. Finally, we can test the resulting model of the training Mask R-CNN.
 
 It will not be necessary to load anything because it will take random images and execute Mask R-CNN.
+
+![téléchargement (3)](https://user-images.githubusercontent.com/119355403/210189275-7f77b623-035b-4d01-a7bc-13b57ff3aa39.png)
+![téléchargement (4)](https://user-images.githubusercontent.com/119355403/210189280-3a022e9a-95ad-4180-9781-800f11af3b1d.png)
+
